@@ -37,6 +37,7 @@ nav{
     font-size: 45px;
     font-weight: bold;
     color: #282727;
+    text-transform: uppercase;
 }
 nav ul{
     display: flex;
@@ -100,4 +101,41 @@ nav ul li a{
     font-size: 18px;
     font-weight: 400;
     margin: 10px 0px ;
+}
+/*main*/
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/*about section*/
+.about{
+    background: rgba(239, 172, 125, 0.38);
+    margin: 130px 0px;
+    padding: 130px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.section-description{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*about section*/
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info{
+    margin-top: 30px;
 }
