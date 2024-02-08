@@ -192,3 +192,47 @@ main{
     background: #fff;
     box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
 }
+
+
+
+/*resume*/
+
+
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+
+}
+
+
+.resume-colum{
+    margin: 0px 20px;
+}
+
+.resume-title{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.resume-item-title{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.resume-item-institute{
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.resume-item-description{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
